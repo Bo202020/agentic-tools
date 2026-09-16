@@ -18,7 +18,6 @@ class PowerShellTool:
             stderr=subprocess.STDOUT,
             text=True,
             bufsize=1,
-            creationflags=subprocess.CREATE_NO_WINDOW,
         )
 
         self.lock = threading.Lock()
